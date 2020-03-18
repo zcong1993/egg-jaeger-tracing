@@ -7,9 +7,9 @@ interface JaegerTracingOptions {
   options?: TracingOptions;
 }
 
-export type curlWithTracing = <T = any>(ctx: Context, url: string, options?: urllib.RequestOptions2) => Promise<T>
-export type setupTracer = (app: Application, config: TracingConfig, options?: TracingOptions) => Tracer
-export type getTracer = () => Tracer
+export declare const curlWithTracing: <T = any>(ctx: Context, url: string, options?: urllib.RequestOptions2) => Promise<T>
+export declare const setupTracer: (app: Application, config: TracingConfig, options?: TracingOptions) => Tracer
+export declare const getTracer: () => Tracer
 
 declare module 'egg' {
   export interface EggAppConfig {
