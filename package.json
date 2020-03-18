@@ -1,6 +1,6 @@
 {
   "name": "egg-jaeger-tracing",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "eggPlugin": {
     "name": "jaegerTracing"
@@ -52,12 +52,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-jaeger-tracing.git"
+    "url": "git+https://github.com/zcong1993/egg-jaeger-tracing.git"
   },
-  "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
-  },
-  "homepage": "https://github.com/eggjs/egg-jaeger-tracing#readme",
   "author": "",
   "license": "MIT"
 }
