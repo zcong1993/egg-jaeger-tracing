@@ -1,10 +1,10 @@
 # egg-jaeger-tracing
 
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
+<!-- [![build status][travis-image]][travis-url]
 [![Test coverage][codecov-image]][codecov-url]
 [![David deps][david-image]][david-url]
-[![Known Vulnerabilities][snyk-image]][snyk-url]
+[![Known Vulnerabilities][snyk-image]][snyk-url] -->
 [![npm download][download-image]][download-url]
 
 [npm-image]: https://img.shields.io/npm/v/egg-jaeger-tracing.svg?style=flat-square
