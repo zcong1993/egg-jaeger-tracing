@@ -45,6 +45,27 @@ exports.jaegerTracing = {
 ```js
 // {app_root}/config/config.default.js
 exports.jaegerTracing = {
+  config: {
+    sampler: {
+      type: 'const',
+      param: 1,
+    },
+    reporter: {
+      logSpans: true,
+      agentHost: 'localhost',
+      agentPort: 6832
+    },
+  },
+  options: {
+    logger: {
+      info(msg) {
+        console.log('INFO ', msg);
+      },
+      error(msg) {
+        console.log('ERROR ', msg);
+      },
+    }
+  }
 };
 ```
 
