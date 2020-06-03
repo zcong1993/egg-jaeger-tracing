@@ -3,8 +3,10 @@ import { Context, Application } from 'egg'
 import { Tracer, Span, SpanOptions } from 'opentracing'
 
 interface JaegerTracingOptions {
+  enable: boolean;
   config: TracingConfig;
   options?: TracingOptions;
+  tracingKeys?: sntring[];
 }
 
 export declare const curlWithTracing: <T = any>(ctx: Context, url: string, options?: urllib.RequestOptions2) => Promise<T>
