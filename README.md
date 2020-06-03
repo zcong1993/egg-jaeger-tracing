@@ -46,6 +46,7 @@ exports.jaegerTracing = {
 // {app_root}/config/config.default.js
 exports.jaegerTracing = {
   config: {
+    serviceName: 'egg-server-a',
     sampler: {
       type: 'const',
       param: 1,
